@@ -1,0 +1,70 @@
+.header {
+background-color: #1F2937 ;
+display:flex;
+justify-content:space-between;
+align-items: center;
+font-size: 24px;
+color: #F9FAF8;
+font-weight: bold;
+
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    color:  #F9FAF8;
+    text-decoration: none;
+}
+
+.main-section{
+    background-color: #1F2937 ;
+    
+}
+.main-section h1 {
+font-size: 48px;
+font-weight: bolder;
+color: #F9FAF8;
+}
+
+.main-section p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.third-section h1{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.images{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-section{
+    background-color: #ESE7EB;
+}
+
+.quote-section blockquote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+}
+
+.footer{
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
