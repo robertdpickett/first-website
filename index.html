@@ -2,57 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Osprey Edge LLC.</title>
+    
 </head>
 <body>
-    <div class="header">
-        <div class="logo"> Header logo</div>
-    <ul class="links">
-        <li><a href="google.com">header link one</a></li>
-        <li><a href="google.com">header link two</a></li>
-        <li><a href="google.com"> header link three</a></li>
-      </ul>
+    <nav class="navbar">
+        <a href="#title-section"><img class="header-logo" src="osprey.jpg"/></a>
+            
+        <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#Areas-served">Areas served</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+      <div class="page-wrapper">
+        <div id="title-section" class="title-section">
+            <div class="media-box">
+                <div class="text-box">
+                    <h1>Home owners save time and money in finding service vendors!</h1>
+                    <p>Osprey Edge provides concierge services to home owners that enables them to stay on track for home maintenance and repairs.</p>
+                    <button class="button">Sign up</button>
+                </div>
+                <img class="main-img" src="todd.jpg"/>
+            </div>
+    </div>
+
+        <div id="services-info" class="services-info">
+            <h1 class="title">Services Provided</h1>
+
+            <div class="services-container">
+                <div class="services">
+                    <img class="services-icon" src="home.jpg"/>
+                    <h2>Home maintenance</h2>
+                </div>
+                <div class="services">
+                    <img class="services-icon" src="sourcing.jpg"/>
+                    <h2>Service vendor sourcing</h2>
+                </div>
+                <div class="services">
+                    <img class="services-icon" src="meeting.jpg"/>
+                    <h2>Scheduling and interviewing vendors</h2>
+                </div>
+                <div class="services">
+                    <img class="services-icon" src="money.jpg"/>
+                    <h2>Simple payments</h2>
+                </div>
+            </div>
+        </div>
       </div>
-      <div class="main-section">
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-        <button type="button">Sign up</button>
-        <img src="lima.jpg" alt="American Pyramid" width="500" height="600">
-      </div>
-      <div class="third-section">
-        <h1>Some random information</h1>
-        <u1 class="images"> 
-            <li>
-                <img src="" alt="" width="" height="">
-                <p>this is some subtext under an illustration or image</p> 
-            </li>
-            <li>
-                <img src="" alt="" width="" height="">
-                <p>this is some subtext under an illustration or image</p> 
-            </li>
-            <li>
-                <img src="" alt="" width="" height="">
-                <p>this is some subtext under an illustration or image</p> 
-            </li>
-            <li>
-                <img src="" alt="" width="" height="">
-                <p>this is some subtext under an illustration or image</p> 
-            </li>
-        </u1>
-      </div>
+
       <div class="quote-section">
-        <blockquote>This is an inspriring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is it looks nice.</blockquote>
+        <blockquote>
+            <p>This is an inspriring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is it looks nice.</p></blockquote>
         <figcaption>-Thor, God of Thunder</figcaption>
       </div>
-      <div class="call-to-action">
-        <h1>Call to action! It's time!</h1>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button type="button">Sign up</button>
+      <div id="signup-section" class="signup-section">
+        <div id="signup-box" class="signup-box">
+            <div class="email-text">
+                <h2>Call to action! It's time!</h2>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="button">Sign up</button>
+        </div>
       </div>
-      <div class="footer">
+      <footer>
         <p>Copyright @ The Odin Project 2021</p>
       </div>
 
